@@ -1,0 +1,13 @@
+2.  En fordel med å bruke liste over ordbok er at i en ordbok kan du ikke ha flere av samme nøkkler.
+    Hvis man skriver en nøkkel som allerede er i en ordbok vil verdien bare bli overskrevet, så vil heller 
+    bruke en liste for eventuell sanger med samme tittel.
+    
+    En annen fordel er at man kan isteden for å lagre begge veridene i en ordbok så lagrer du allerede objektet i en liste
+    og hvert objekt har kontoll på veridene som er i objektet selv så da trenger man ikke lagre begge verdiene
+
+3.  Når du legger filnavnet i konstruktøren kan du ikke opprette ett nytt objekt uten en fil.
+    Er litt dumt for da kan du ikke lage enke filer for å utvide programmet
+
+4.  Når du henter fra filen og lager den listen når du skal sende fra alleData listen til Sang klassen
+    må man bare bytte om på 0 og 1 sin rekke følge. Man bytter bare rekkefølgen på.
+    Eks. alleData = Sang(alleData[0], alleData[1]) istedenfor : alleData = Sang(alleData[1], alleData[0])
