@@ -1,0 +1,7 @@
+A linje 1-16
+B linje 19 og 20
+C linje 3-5
+D linje 7,11,15
+E linje 2
+F linje 21,22,25,26,27,28,31,32,33,34
+G er ikke hele linjen men en del av linjen: linje 2,7,11,19,20,25,26,31,32

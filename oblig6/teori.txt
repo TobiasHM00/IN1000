@@ -1,0 +1,12 @@
+1.  Innkapsling er et prinsipp der programmereren kun har tilgang til utvalgte metoder i objekter av en klasse.
+    Det er nyttig til å skille mellom vanlige variabler som brukes i resten av programmet og disse instansvariablene som kunne skal
+    brukes inne i klassen.
+
+2.  Grensesnitt er et antall utvalgte metoder som programmerer kan kalle på for å lese av, endre eller aktiviserer objektet. Grensesnittet bestemmes av objektets klasse.
+    Implementasjon er grensesnittets innmat. Du har et objekt og så har objektet et grensesnitt som kan brukes til å gjøre ting med objektet
+    også har du implementasjon som er innmaten til grensesnittet og forklarer hva som skjer i koden.
+    Grensesnittet bare vet hva som skal gjøre, men vet ikke hvorfor det gjøres.
+
+3.  En instansmetode er en del av innmaten til grensesnittet og beskriver hva som skjer i inni grensesnittet. Metodene ligner veldig på funksjoner og prosedyrer. 
+    Disse metodene brukes med argumenter når man holder på med klasser. Prosedyrer og funksjoner kan også bli brukt med klasser, men ikke inni selve klassen.
+    Metodene som blir brukt inni klassene har en 'self' argumentet som kjenne tegner en metode inni en klasse.
